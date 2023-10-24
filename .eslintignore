@@ -1,0 +1,5 @@
+wxcomponents/**
+./src/components/nbVoiceRecord/**/*  # 组件
+# ./src/utils/
+./wxcomponents/**/*.js
+.vscode/**

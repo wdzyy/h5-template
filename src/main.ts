@@ -8,6 +8,7 @@ import './styles/main.css'
 import 'uno.css'
 
 const app = createApp(App)
+// console.log(routes, 'routes')
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,

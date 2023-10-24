@@ -3,11 +3,10 @@
 </script>
 
 <template>
-  <div>
-    <TheCounter />
+  <div class="w-10px">
+    Home
   </div>
 </template>
 
 <style lang="scss" scoped>
-
 </style>
