@@ -9,6 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheCounter: typeof import('./src/components/TheCounter.vue')['default']
+    ZFooter: typeof import('./src/components/ZFooter.vue')['default']
+    ZHeader: typeof import('./src/components/ZHeader.vue')['default']
+    ZNavbar: typeof import('./src/components/ZNavbar.vue')['default']
+    ZTabbar: typeof import('./src/components/ZTabbar.vue')['default']
+    ZTabBar: typeof import('./src/components/ZTabBar.vue')['default']
   }
 }

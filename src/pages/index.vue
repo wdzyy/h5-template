@@ -4,10 +4,12 @@
 
 <template>
   <div>
-    <TheCounter />
+    <ZHeader />
+    <ZFooter />
+    <ZNavbar />
+    <ZTabbar />
   </div>
 </template>
 
 <style lang="scss" scoped>
-
 </style>
