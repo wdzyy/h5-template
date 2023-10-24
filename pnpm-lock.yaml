@@ -1491,7 +1491,7 @@ packages:
     dependencies:
       '@vue-macros/common': 1.8.0(rollup@3.29.1)(vue@3.3.4)
       '@vue-macros/reactivity-transform': 0.3.23(vue@3.3.4)
-      unplugin: 1.4.0
+      unplugin: 1.5.0
       vue: 3.3.4
     transitivePeerDependencies:
       - rollup
