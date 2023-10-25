@@ -9,6 +9,7 @@ import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import UnoCSS from 'unocss/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig(({ command, mode }) => {
   // 根据当前工作目录中的 `mode` 加载 .env 文件
@@ -25,6 +26,7 @@ export default defineConfig(({ command, mode }) => {
       },
     },
     plugins: [
+      vueJsx(),
       VueMacros({
         defineOptions: false,
         defineModels: false,

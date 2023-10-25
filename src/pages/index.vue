@@ -1,4 +1,5 @@
 <script setup>
+import ZTsx from '@/components/ZTsx'
 import { login } from '@/apis/user.ts'
 import { useUserStore } from '@/stores/modules/user'
 
@@ -21,6 +22,7 @@ onMounted(() => {
     <ZFooter />
     <ZNavbar />
     <ZTabbar />
+    <ZTsx :msg="123333" />
   </div>
 </template>
 
