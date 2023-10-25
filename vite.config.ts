@@ -47,6 +47,13 @@ export default defineConfig(({ command, mode }) => {
           'vue',
           'vue-router',
           '@vueuse/core',
+          // custom
+          {
+            axios: [
+              // default imports
+              ['default', 'axios'], // import { default as axios } from 'axios',
+            ],
+          },
         ],
         dts: true,
         dirs: [
