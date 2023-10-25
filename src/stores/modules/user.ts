@@ -11,8 +11,9 @@ export const useUserStore = defineStore({
   },
   actions: {
     // 设置token
-    setToken(token: string) {
-      this.token = token
+    setToken(data: any) {
+      this.token = data.accessToken
+      this.userInfo = data
     },
     // 获取token
     getToken() {
